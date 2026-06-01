@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Kaydedilmiş optimize modeli ve scaleri yükle
-model = joblib.load('optimized_rf_model.pkl')
+model = joblib.load('champion_xgb_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # Sayfa Genişlik Ayarı ve Başlık
